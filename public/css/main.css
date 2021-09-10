@@ -1,0 +1,11 @@
+.social-media {
+    margin-top: 15px;
+}
+
+.social-media .github {
+    filter: brightness(0) invert(1);
+}
+
+.social-media .email {
+    background-color: transparent;
+}
