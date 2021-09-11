@@ -8,6 +8,7 @@
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
         <link href="{{asset('/css/timeline.css') }}" rel="stylesheet">
@@ -41,23 +42,26 @@
         @endif
 
        <div class="row">
-           <div class="col-md-4">
+           <div class="col-md-3">
                <div class="h-100 bg-gray-500 dark:bg-gray-900 p-6">
                     <div class="text-center">
-                        <h3 class="text-gray-300">Persönliche Informationen</h3>
-                        <img src="http://www.fortbildungsnetzwerk-swf.de/wp-content/uploads/2016/11/default-user.png" width="200px" height="200px" class="rounded-circle" alt="Cinque Terre">
+                        <h4 class="text-gray-300">Persönliche Informationen</h4>
+                        <img src="http://www.fortbildungsnetzwerk-swf.de/wp-content/uploads/2016/11/default-user.png" width="200px" height="200px" class="rounded-circle mt-2" alt="Cinque Terre">
                         <div class="social-media">
                             <a href="https://github.com/JuSte94">
                                 <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" class="github" width="30px" height="30px" alt="github"/>
                             </a>
                             <a href="#">
-                                <img src="https://mpng.subpng.com/20190320/hxe/kisspng-computer-icons-clip-art-scalable-vector-graphics-p-mail-circle-svg-png-icon-free-download-5-3976-5c91de34ca8744.3676364915530634768296.jpg" class="email" width="30px" height="30px" alt="email"/>
+                                <img src="https://cdn.icon-icons.com/icons2/2768/PNG/512/email_icon_176616.png" class="email" width="35px" height="35px" alt="github"/>
                             </a>
                         </div>
                     </div>
+                   <div class="editinformation">
+                       <span class="material-icons">edit</span>
+                   </div>
                </div>
            </div>
-           <div class="col-md-8">
+           <div class="col-md-9">
                <div class="min-h-screen bg-gray-500 dark:bg-gray-700 p-6">
                    <h3 class="text-gray-900">Werdegang</h3>
                    <ul class="timeline">

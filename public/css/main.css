@@ -1,5 +1,5 @@
 .social-media {
-    margin-top: 15px;
+    padding: 15px;
 }
 
 .social-media .github {
@@ -7,5 +7,11 @@
 }
 
 .social-media .email {
-    background-color: transparent;
+    filter: brightness(0) invert(1);
+}
+.editinformation {
+    color: white;
+    position: absolute;
+    left: 10px;
+    bottom: 10px;
 }
